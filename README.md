@@ -1,4 +1,6 @@
-This script is used for homotrimer protein interface residue-residue interaction prediction. Python version is 3.6+, and the dependent packages are attached in requirements.txt. Please type
+This script is used for homotrimer protein interface residue-residue interaction prediction. 
+
+Python version is 3.6+, and the dependent packages are attached in requirements.txt. Please type
 
 pip install -r requirements.txt
 
