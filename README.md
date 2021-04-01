@@ -11,4 +11,4 @@ python predictor.py file1 file2 file3 file4
 where file1 and file2 are 1D information from corresponding subunits, file3  and file4 are 2D information.  
   
 Here, we give an example for usage：
-python predictor.py
+python scripts/predictor.py example/2bsd_A.txt example/2bsd_B.txt example/2bsd_ccmpred example/2bsd_cp
