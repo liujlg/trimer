@@ -61,6 +61,7 @@ for order in index[:50]:
     j=(order+1)%data2.shape[1]
     print(data_1.iloc[i-1,:3].values,data_2.iloc[j-1,:3].values)
 
+    
 '''
 print(pred[:,:data1.shape[1],:data2.shape[1],:].reshape((-1,2))[:,-1][index[:50]])
 top_index=test_y[:,:data1.shape[1],:data2.shape[1],:].reshape((-1,2))[:,-1][index[:50]]
