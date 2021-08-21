@@ -11,9 +11,6 @@ from keras.models import load_model
 from keras import backend as K
 import joblib
 from keras.utils import to_categorical
-#import seaborn as sns
-import matplotlib.pyplot as plt
-import os
 from sys import argv
 import math
 
