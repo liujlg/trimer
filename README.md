@@ -14,9 +14,13 @@ Here, we give an example for usage：
 python scripts/predictor.py example/2bsd_A.txt example/2bsd_B.txt example/2bsd_A_B.mat example/2bsd_A_B.pair.npy
 
 
+
+
 Reference
 
 Zhonghua Hong, Jiale Liu, Yinggao Chen, An interpretable machine learning method for homo-trimeric protein interface residue-residue interaction prediction, Biophysical Chemistry,278(10666),2021.
+
+
 
 
 
