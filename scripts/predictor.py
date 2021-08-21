@@ -51,7 +51,6 @@ test_x4=np.concatenate((data_c,data_r),axis=-1).reshape((1,500,500,37*2))
 pred = model.predict([test_x1,test_x2,test_x3,test_x5,test_x4],batch_size=1 )
 
 
-
 index=np.argsort(pred[:,:data1.shape[1],:data2.shape[1],:].reshape((-1,2))[:,-1],axis=-1)[::-1]
 print(index[:50])
 
